@@ -1,4 +1,12 @@
-﻿# How to use
+# Pre-requistites
+
+Install packages from requirements.txt
+
+```
+pip install -r requirements.txt
+```
+ 
+# How to use
 
 Run *start.py*. This creates 3 folders - *input*, *output* and *processed*.
  
