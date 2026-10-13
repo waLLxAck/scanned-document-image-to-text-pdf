@@ -38,7 +38,7 @@ def ocr_pdf(file_path):
     pdf = FPDF()
     pdf.add_page()
     pdf.set_font("Arial", size = 11)
-    pdf.multi_cell(275, txt = output)
+    pdf.multi_cell(275, 10, txt=output)
 
     new_file_path = os.path.basename(file_path).replace('.pdf', '') + '-editable.pdf'
     pdf.output(f'output/{new_file_path}')
